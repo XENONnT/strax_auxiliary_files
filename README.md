@@ -38,4 +38,3 @@ Before if uploading any data please update the table below with a short descript
 |`XENON1T_s2_xy_ly_SR1_v2.2.json`|1T S2 light-yield map         |`wfsim`        |           |
 |`XENON1T_s2_xy_patterns_....gz`|1T pattern map                 |`wfsim`        |           |
 |`XENON1T_spe_distributions.csv`|1T single photonelectron distributions |`wfsim`|           |
-|`Xenon1T_WholeLXe_Pb21....root`|??                             |`MC`           |           |
