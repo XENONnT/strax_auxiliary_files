@@ -12,7 +12,7 @@ Before if uploading any data please update the table below with a short descript
 |`pmt_positions_xenonnt.csv`    |nT PMT positions               |`straxen` 1T   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenonnt:analysis:coordinate_system#analysis_and_pmt_coordinate_system) |
 |`remapped_channels_....csv`    |(see link)                     |`straxen` nT   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenonnt:dsg:daq:sector_swap) |
 |`strax_test_data.tar`          |Ancient strax test data        |`straxen`      |           |
-|`strax_test_data_straxv0.9.tar`|Strax data                     |`straxen`      |           |
+|`strax_test_data_straxv0.9.tar`|Straxen test data              |`straxen`      |           |
 |`to_pe.npy`                    |1T to pe per running           |`straxen` 1T   |           |
 |`XENON1T_..._20171217_sr0.h5`  |SR0 NN                         |`straxen` 1T   |?          |
 |`XENON1T_..._20171217_sr1.h5`  |SR1 NN                         |`straxen` 1T   |?          |
