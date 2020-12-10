@@ -18,7 +18,7 @@ Before if uploading any data please update the table below with a short descript
 |`XENON1T_..._20171217_sr1.h5`  |SR1 NN                         |`straxen` 1T   |?          |
 |`XENON1T_..._20171217_sr1_reformatted.json` |SR1 NN            |`straxen` 1T   |?          |
 
-# ./fax_files
+# ./sim_files
 | File-name                     | Short description             |Used for       | Link      |
 | ---------                     | ---------                     | ---------     |---------  |
 |`170203_0850_00_small.npz`     |                               |`wfsim`        |           |
