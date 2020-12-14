@@ -63,7 +63,7 @@ config = straxauxfiles.get_sim_file('fax_config.json', fmt='json')
 print(config.keys())
 ```
 
-### Example 2. Open a strax file
+### Example 3. Open a strax file
 Let's see how we can interact with the package. Below is an example of how we can open a simulation file.
 ```python
 import straxauxfiles
