@@ -545,6 +545,7 @@
     "electron_trapping_time": 140.0,
     "elr_gas_gap_length": 0.266,
     "external_amplification": 10,
+    "field_distortion_on": true,
     "gains": [
         2432700.0,
         0.0,
@@ -1264,6 +1265,7 @@
     "s1_model_type": "simple",
     "s1_risetime_threshold": 70,
     "s1_width_threshold": 300,
+    "s2_luminescence_model": "simple",
     "s2_mean_area_fraction_top": 0.627,
     "s2_secondary_sc_gain": 21.3,
     "sample_duration": 10,
