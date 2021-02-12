@@ -534,7 +534,7 @@
     ],
     "detector": "XENON1T",
     "diffusion_constant_longitudinal": 2.935e-08,
-    "diffusion_constant_transverse:0",
+    "diffusion_constant_transverse": 0,
     "digitizer_bits": 14,
     "digitizer_reference_baseline": 16000,
     "digitizer_voltage_range": 2.25,
