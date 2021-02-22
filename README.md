@@ -1,4 +1,6 @@
 # strax_auxiliary_files
+[![Pytest](https://github.com/XENONnT/strax_auxiliary_files/actions/workflows/test_package.yml/badge.svg)](https://github.com/XENONnT/strax_auxiliary_files/actions/workflows/test_package.yml)
+
 Files needed for running strax on XENON data
 
 # How to use
