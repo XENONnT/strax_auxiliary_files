@@ -10,7 +10,6 @@ Before if uploading any data please update the table below with a short descript
 | File-name                     | Short description             |Used for       | Link      |
 | ---------                     | ---------                     | ---------     |---------  |
 |`elipe.npy`                    |1T electron livetimes          |`straxen`      |           |
-|`fax_config.json`              |Simulation config for 1T wfim  |`wfsim`        |           |
 |`filters_per_chan.npy`         |1T pulse filters per channel   |`straxen` 1T   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenonnt:analysis:waveforms_team:single_pe_deconvolution) |
 |`pmt_positions_xenonnt.csv`    |nT PMT positions               |`straxen` 1T   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenonnt:analysis:coordinate_system#analysis_and_pmt_coordinate_system) |
 |`remapped_channels_....csv`    |(see link)                     |`straxen` nT   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:xenonnt:dsg:daq:sector_swap) |

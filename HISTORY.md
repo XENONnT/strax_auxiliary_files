@@ -1,3 +1,8 @@
+0.1.0 / 2021-02-22
+--------------------
+- Add a sanity check (#13)
+- Updates to fax_config_1t.json (#11, #12)
+
 0.0.0 / 2020-12-14
 --------------------
 - Make package
