@@ -1,2 +1,2 @@
 strax
-straxen
+straxen>=0.15.7
