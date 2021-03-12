@@ -7,8 +7,8 @@
     "s1_model_type": "simple",
     "s2_luminescence_model": "simple",
     "enable_gas_gap_warping": false,
-    "enable_pmt_afterpulses": false,
-    "enable_electron_afterpulses": false,
+    "enable_pmt_afterpulses": true,
+    "enable_electron_afterpulses": true,
     "enable_noise": false,
     "field_distortion_on": true,
 
