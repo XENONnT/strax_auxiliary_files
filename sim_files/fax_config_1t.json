@@ -11,6 +11,12 @@
     "enable_electron_afterpulses": true,
     "enable_noise": false,
     "field_distortion_on": true,
+    "enable_field_dependencies": {
+        "survival_probability_map": false,
+        "drift_speed_map": false,
+        "diffusion_longitudinal_map": false,
+        "diffusion_transverse_radial_map": false,
+        "diffusion_transverse_perp_radius_map": false},
 
     // LXe properties
     "temperature": 177.45,
