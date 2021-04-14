@@ -1,2 +1,4 @@
 utilix>=0.5.3
-multihist  # in one of the pickle files
+# Required in one or more of the pickle files
+multihist
+dill
