@@ -59,7 +59,7 @@ import straxauxfiles
 # Let's see what kind of simulation files we have
 print(straxauxfiles.list_sim_files())
 # Let's load the fax_config_nt and open it as a dictionary
-config = straxauxfiles.get_sim_file('fax_config.json', fmt='json')
+config = straxauxfiles.get_sim_file('fax_config.json')
 # We can now treat it as a dictionary
 print(config.keys())
 ```
@@ -71,7 +71,7 @@ import straxauxfiles
 # Let's see what kind of strax files we have
 print(straxauxfiles.list_strax_files())
 # Let's load the fax_config_nt and open it as a dictionary
-print(straxauxfiles.get_strax_file('elife.npy', fmt='npy'))
+print(straxauxfiles.get_strax_file('elife.npy')
 ```
 
 ### Example 2. Locate all the files in this auxiliary repo
