@@ -1,9 +1,9 @@
 import os
-from straxen import get_resource as straxen_get_resource
-from strax import exporter
+from utilix.io import read_file
 import pkg_resources
+import straxauxfiles
 
-export, __all__ = exporter()
+export, __all__ = straxauxfiles.exporter()
 
 
 @export
@@ -27,25 +27,25 @@ def list_aux_files():
 
 
 @export
-def get_strax_file(file_name, **kwargs):
+def get_strax_file(file_name):
     """
     Get files stored under strax_files. Add "fmt = <format>" as an
     argument to read a specific format. otherwise we will assume it's in
     a text format. See straxen.get_recourse for more info.
     """
     p = _package_path('strax_files')
-    return _get_file(file_name, get_from=p, **kwargs)
+    return _get_file(file_name, get_from=p)
 
 
 @export
-def get_sim_file(file_name, **kwargs):
+def get_sim_file(file_name):
     """
     Get files stored under get_sim_file. Add "fmt = <format>" as an
     argument to read a specific format. otherwise we will assume it's in
     a text format. See straxen.get_recourse for more info.
     """
     p = _package_path('sim_files')
-    return _get_file(file_name, get_from=p, **kwargs)
+    return _get_file(file_name, get_from=p)
 
 
 @export
@@ -68,13 +68,13 @@ def get_abspath(file_name):
     raise FileNotFoundError(f'Cannot find {file_name}')
 
 
-def _get_file(file_name, get_from, **kwargs):
+def _get_file(file_name, get_from):
     """Get a file from a subfolder in this package"""
     if file_name not in _list_files(get_from):
         raise FileNotFoundError(f'No file {file_name} in {get_from}')
     else:
         path = os.path.join(get_from, file_name)
-        return straxen_get_resource(path, **kwargs)
+        return read_file(path)
 
 
 def _package_path(sub_directory):
