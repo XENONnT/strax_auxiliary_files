@@ -1,2 +1,4 @@
-strax
-straxen>=0.15.7
+utilix>=0.5.3
+# Required in one or more of the pickle files
+multihist
+dill
