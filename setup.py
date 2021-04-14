@@ -13,7 +13,7 @@ with open('HISTORY.md') as file:
     history = file.read()
 
 setuptools.setup(name='straxauxfiles',
-                 version='0.1.1',
+                 version='0.2.0',
                  description='Auxiliary strax files and placeholders for XENON1T',
                  author='The XENON collaboration',
                  url='https://github.com/XENONnT/strax_auxiliary_files',
