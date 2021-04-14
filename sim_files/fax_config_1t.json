@@ -29,11 +29,10 @@
     "anode_wire_radius": 0.011749999999999998,
     "anode_field_domination_distance": 0.036,
     "elr_gas_gap_length": 0.266,
-    "gate_to_anode_distance": 0.7888,
     "gate_to_anode_distance": 0.5,
     
     // Field
-    "drift_field": 18.5,                                   # V/cm
+    "drift_field": 82.0,                                   # V/cm
     "anode_voltage": 4000.0,                               # V
     "diffusion_constant_longitudinal": 2.935e-08,
     "diffusion_constant_transverse": 0,
