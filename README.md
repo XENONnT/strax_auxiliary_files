@@ -20,6 +20,7 @@ Before if uploading any data please update the table below with a short descript
 |`XENON1T_..._20171217_sr0.h5`  |SR0 NN                         |`straxen` 1T   |?          |
 |`XENON1T_..._20171217_sr1.h5`  |SR1 NN                         |`straxen` 1T   |?          |
 |`XENON1T_..._20171217_sr1_reformatted.json` |SR1 NN            |`straxen` 1T   |?          |
+| `012882-raw_records-z7q2d2ye2t.tar` | Straxen automated testing | `straxen`   | Joran     |
 |`s1_aft_UNITY_xyz_XENONnT.json`|S1(x,y,z) AFT dummy map        |`straxen` nT   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:giovo:even_patterfit_s1) |
 |`s1_lce_UNITY_xyz_XENONnT.json`|S1(x,y,z) LCE dummy map        |`straxen` nT   |  |
 |`s2_map_UNITY_xy_XENONnT.json`|S2(x,y) correction dummy map    |`straxen` nT   |  |
