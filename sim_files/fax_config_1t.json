@@ -13,7 +13,7 @@
         "survival_probability_map": false,
         "drift_speed_map": false,
         "diffusion_longitudinal_map": false,
-        "diffusion_transverse_map": false},
+        "diffusion_transverse_map": false },
 
     // LXe properties
     "temperature": 177.45,
