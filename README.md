@@ -24,6 +24,7 @@ Before if uploading any data please update the table below with a short descript
 |`s1_aft_UNITY_xyz_XENONnT.json`|S1(x,y,z) AFT dummy map        |`straxen` nT   |[link](https://xe1t-wiki.lngs.infn.it/doku.php?id=xenon:giovo:even_patterfit_s1) |
 |`s1_lce_UNITY_xyz_XENONnT.json`|S1(x,y,z) LCE dummy map        |`straxen` nT   |  |
 |`s2_map_UNITY_xy_XENONnT.json`|S2(x,y) correction dummy map    |`straxen` nT   |  |
+| `dummy_bayes_model.npz` | Bayes dummy modele file             |`straxen` nT   |  |
 
 # ./sim_files
 | File-name                     | Short description             |Used for       | Link      |
