@@ -63,6 +63,8 @@
     "electron_lifetime_liquid": 650000,
     "electron_trapping_time": 140.0,
     "gas_drift_velocity_slope": 5400000000000.0,
+    // https://arxiv.org/pdf/1902.11297.pdf, table 2
+    "g2_mean": 11.4,
 
     // PMT
     "p_double_pe_emision": 0.15,
